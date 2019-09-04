@@ -12,6 +12,8 @@ import java.util.Random;
 
 public class MainActivity extends AppCompatActivity {
 
+	int number;
+	private editText angkaInput;
 	//  TODO: deklarasikan variabel di sini
 
 	@Override
@@ -20,6 +22,8 @@ public class MainActivity extends AppCompatActivity {
 		setContentView(R.layout.activity_main);
 		// TODO: bind layout di sini
 	}
+
+	public static
 
 	// TODO: generate angka random di sini
 	private void initRandomNumber() {
